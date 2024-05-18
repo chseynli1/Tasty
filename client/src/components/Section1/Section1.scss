@@ -1,0 +1,88 @@
+.mySwiper {
+    .slide1 {
+        background-image: url("https://preview.colorlib.com/theme/tasty/images/bg_1.jpg.webp");
+        width: 100%;
+        height: 100vh;
+        color: white;
+
+        &__header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+
+            &__logo {
+                width: 100px;
+                height: 40px;
+                border: 2px solid white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            &__list {
+                &__ul {
+                    display: flex;
+                    list-style: none;
+                    gap: 40px;
+                }
+            }
+            &__menu{
+                display: none;
+            }
+        }
+
+        &__text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 800px;
+
+            &__button {
+                border: 2px solid white;
+                width: 130px;
+                height: 50px;
+                background-color: rgba(0, 0, 0, 0);
+                color: white;
+                cursor: pointer;
+                transition: all 0.3s linear;
+                font-weight: bold;
+            }
+
+            &__button:hover {
+                background-color: white;
+                color: black;
+            }
+        }
+    }
+
+    .slide2 {
+        background-image: url("https://preview.colorlib.com/theme/tasty/images/bg_2.jpg.webp");
+        width: 100%;
+        height: 100vh;
+        color: white;
+    }
+
+    .slide3 {
+        background-image: url("https://preview.colorlib.com/theme/tasty/images/bg_3.jpg.webp");
+        width: 100%;
+        height: 100vh;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .slide1__header__menu{
+        display: block;
+    }
+    .slide1__header__list{
+        display: none;
+    }
+    .slide1__text{
+        width: 290px;
+    }
+    .slide1{
+        width: 100%;
+    }
+}

@@ -1,0 +1,13 @@
+.section2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 800px;
+    &__text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 50px;
+        gap: 30px;
+    }
+}

@@ -1,0 +1,12 @@
+.detail{
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    &__text{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}

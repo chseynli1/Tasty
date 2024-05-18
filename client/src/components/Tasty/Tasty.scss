@@ -1,0 +1,44 @@
+.tasty{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    &__header{
+        text-align: center;
+    }
+    &__cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        &__card{
+            display: flex;
+            gap: 100px;
+            justify-content: space-around;
+            align-items: center;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            height: 110px;
+            min-width: 700px;
+            padding: 0 30px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            &__image{
+                display: flex;
+                gap: 30px;
+            }
+            &__buttons{
+                display: flex;
+                gap: 30px;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        &__card:hover{
+            background-color: rgb(255, 196, 0);
+        }
+    }
+}

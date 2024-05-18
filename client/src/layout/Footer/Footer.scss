@@ -1,0 +1,20 @@
+.footer{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(38, 38, 38);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+    &__top{
+        display: flex;
+        gap: 100px;
+        &__div{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+    }
+}
